@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="10dp"
+    android:background="@drawable/backgroud_item_linearloaicauhoi"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/textViewCau"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cau:"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textViewNoiDung"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nội dung câu hỏi"
+                android:textSize="16sp"
+                android:layout_marginStart="5dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/imageViewCH"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="Hình ảnh câu hỏi"
+            android:scaleType="centerInside"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/textViewDapAnA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A. Đáp án A"
+            android:textSize="14sp"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/textViewDapAnB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B. Đáp án B"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/textViewDapAnC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C. Đáp án C"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/textViewDapAnD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D. Đáp án D"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/textViewDapAnDung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đáp án đúng: A"
+            android:textSize="14sp"
+            android:textStyle="italic"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+
+</LinearLayout>

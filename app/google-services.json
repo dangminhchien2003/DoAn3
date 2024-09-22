@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "75747555624",
+    "project_id": "appthigplx",
+    "storage_bucket": "appthigplx.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:75747555624:android:a695420b8d59954183b81d",
+        "android_client_info": {
+          "package_name": "com.example.apponthiblx"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuDUjZaWaA8JotTW8BB2aqDsiAR8GKtfU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

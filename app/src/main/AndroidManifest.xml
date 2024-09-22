@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppOnThiBLX"
+        tools:targetApi="31">
+        <activity
+            android:name=".SuaBoDeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThemBoDeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QLDeThiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThemCauHoiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SuaCauHoiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SuaBienBaoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThemBienbaoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SuaLoaiBienBaoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThemLoaiBienbaoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QLBienBaoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QLCauHoiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QLLoaiBienBaoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SuaLoaiCauhoiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QLLoaiCauHoiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThemLoaiCauHoiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuanTriActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KetQuaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DethiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TimKiemCauHoiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CauHoiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BoDeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoaiCauHoiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HocLaiMoToActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DangKiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DangNhapActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoaiBienBaoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BienBaoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuytrinhPdfActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PDFActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HocLuatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LogoActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
